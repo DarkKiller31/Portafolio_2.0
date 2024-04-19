@@ -46,7 +46,7 @@
 
   "ProEnt6Titulo": "Hotels VIP",
   
-  "ProEnt6Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de una API de pokemon PokeAPI implementando el uso React router, Redux, Métodos HTTP (get, create, delete, update) y práctica de props.",
+  "ProEnt6Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de una API de hotels api implementando el uso React router, Redux, Métodos HTTP (get, create, delete, update) y práctica de props.",
 
   "Contacto": "Contacto",
 
