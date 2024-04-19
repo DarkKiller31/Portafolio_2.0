@@ -1,0 +1,78 @@
+{
+  "BTN1": "Home",
+  "BTN2": "About",
+  "BTN3": "Skills",
+  "BTN4": "Projects",
+  "BTN5": "Contact",
+  "Titu_Presen": "Hello, I'm Juan Camilo Trujillo",
+
+  "Presentacion": "I am a web developer in constant learning. With knowledge in architectural design and programming which gives me broad criteria when addressing different solutions to problems that may arise in web development. I am passionate about technology with a hunger for new challenges.",
+
+  "BotonCV": "Download CV",
+
+  "Titu_Acerca": "About me",
+
+  "TxtAcerca1": "I am a creativity enthusiast with a deep love for architecture, programming, design and DIY. From my early fascination with architectural spaces to my passion for coding and innovative design, I find in every field an opportunity to express my creativity and skills.",
+
+  "TxtAcerca2": "Architecture captivates me with its ability to influence our lives and emotions through the spaces it creates. Programming allows me to transform abstract ideas into tangible digital solutions. Meanwhile, design and DIY offer me a tangible canvas where I can uniquely fuse aesthetics and functionality. In each project, I seek to explore new limits, challenge myself, and find beauty at the intersection of form and function.",
+  
+  "TxtAcerca3":"My world is defined by the constant search for new experiences and creative challenges. From planning architectural projects to creating technological solutions, every step I take reflects my passion for innovation and design. I am an eternal learner and creator, driven by the desire to leave a positive mark on the world through my work and creativity.",
+
+  "Title_Habil": "Skills",
+
+  "TxtHabil": "I have strong skills in HTML, CSS, JavaScript, React and TypeScript. I specialize in creating attractive and functional interfaces, focusing on accessibility and optimization. I am currently expanding my knowledge to master the Back-end and create modern and scalable web applications.",
+
+  "Proyectos": "Projects",
+
+  "ProEnt1Titulo": "Celebratory Phrases",
+  
+  "ProEnt1Txt": "It is an application developed in React JS and CSS that randomly presents you with various phrases while also changing the background image",
+
+  "ProEnt2Titulo": "Weather application",
+  
+  "ProEnt2Txt": "It is an application developed in React JS and CSS in which the use of the API called Open Weather Map was managed, in which the UseEffect Hook and asynchronous requests are implemented.",
+
+  "ProEnt3Titulo": "Rick and Morty App",
+  
+  "ProEnt3Txt": "It is an application developed in React JS and CSS in which the use of the Rick and Morty API was managed, implementing the use of List and keys, controlled input, conditional rendering and error handling.",
+
+  "ProEnt4Titulo": "Users CRUD",
+  
+  "ProEnt4Txt": "It is an application developed in React JS and CSS in which the use of the Snippets API was managed, implementing the use of HTTP Methods (get, create, delete, update) and props practice.",
+
+  "ProEnt5Titulo": "Pokedex",
+  
+  "ProEnt5Txt": "It is an application developed in React JS and CSS in which the use of the pokemon PokeAPI API was managed, implementing the use of React router and Redux.",
+
+  "ProEnt6Titulo": "Hotels VIP",
+  
+  "ProEnt6Txt": "It is an application developed in React JS and CSS in which the use of a pokemon PokeAPI API was managed, implementing the use of React router, Redux, HTTP Methods (get, create, delete, update) and props practice.",
+
+  "Contacto": "Contact",
+
+  "InfoContacto": "Contact information",
+
+  "TxtInfonCont": "Please feel free to contact me by submitting the form below and I will get back to you as soon as possible.",
+
+  "WhatsApp": "Send message to WhatsApp",
+
+  "TituloForm": "Send Message",
+
+  "Name": "Name",
+  "PlName": "Your name...",
+  "Email": "Email",
+  "PlEmail": "example@mail.com",
+  "Subject": "Subject",
+  "Message": "Message",
+
+  "Footer": "I am a web developer with a distinctive focus on design, fusing technical programming skills with a creative sensibility to create impactful, user-centered digital experiences.",
+
+  "Redes": "Social networks",
+
+  "Derechos": "© Site created by {(Autor)}", 
+
+  "BotonForm": "Send",
+  "BotonDemo": "SEE DEMO",
+  "BotonCod": "SEE CODE"
+
+}

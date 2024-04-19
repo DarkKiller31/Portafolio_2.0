@@ -1,0 +1,139 @@
+.header__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 110px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.077);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  border-right: 1px solid var(--accent);
+  transition: width 0.5s ease;
+}
+.header__container:hover {
+  width: 220px;
+}
+.header__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.header__li {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  color: transparent;
+  width: 100%;
+}
+.header__icon {
+  color: var(--btn-header);
+  font-size: 2em;
+}
+.header__link {
+  display: none;
+  font-weight: 500;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--btn-header);
+}
+
+.header__container:hover .header__link {
+  display: inline;
+  justify-content: center;
+}
+.header__logo {
+  width: 90%;
+}
+
+
+.container__btns {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.header__container:hover .container__btns {
+  flex-direction: row;
+}
+.header__language {
+  max-width: 32px;
+  max-height: 32px;
+  display: flex;
+  background-color: var(--btn-header);
+  padding: 0.2em;
+  border-radius: 45px;
+  overflow: hidden;
+}
+
+.header__img {
+  cursor: pointer;
+  width: 25px;
+  color: black;
+}
+.img__none {
+  display: none;
+}
+.header__toggle {
+  max-width: 32px;
+  max-height: 32px;
+  display: flex;
+  background-color: var(--color-text);
+  padding: 0.2em;
+  border-radius: 45px;
+  overflow: hidden;
+}
+.iconsDL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconTo {
+  align-self: center;
+  justify-self: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 45px;
+}
+.iconLight {
+  color: rgb(255, 179, 0);
+  cursor: pointer;
+}
+.iconDark {
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .header__container {
+    position: fixed;
+    height: 110px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    border-bottom: 1px solid var(--accent);
+    transition: none;
+  }
+  .header__container:hover {
+    width: 100vw;
+  }
+  .header__list {
+    flex-direction: row;
+  }
+  .container__btns {
+    flex-direction: row;
+  }
+  .header__logo {
+    height: 60%;
+    width: auto;
+  }
+  .header__container:hover .header__link {
+    display: none;
+  }
+}

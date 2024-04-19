@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Aleo", serif;
+}
+body {
+  margin: 0;
+}
+h1, h2, h3, p, ul,hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+input, button, select {
+  font-family: inherit;
+}
+
+:root .app {
+  --accent: #2bf954;
+  --color-text: white;
+  background: linear-gradient(90deg, rgb(19, 19, 19) 0%, rgb(12, 45, 61) 58%, rgb(12, 38, 73) 80%, rgb(5,5,5) 100%);
+  --btn-header: #2bf954;
+  
+}
+
+:root .light {
+  --accent: #03125a;
+  --color-text: rgb(15, 15, 15);
+  --btn-header: #ffffff;
+  background: linear-gradient(90deg, rgba(22,69,136,1) 0%, rgba(29,180,253,1) 58%,rgb(145, 144, 144) 100%);
+}

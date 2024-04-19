@@ -1,0 +1,78 @@
+{
+  "BTN1": "Inicio",
+  "BTN2": "Sobre mi",
+  "BTN3": "Habilidades",
+  "BTN4": "Proyectos",
+  "BTN5": "Contacto",
+  "Titu_Presen": "Hola, Soy Juan Camilo Trujillo",
+
+  "Presentacion": "Soy un desarrollador web en constante aprendizaje. Con conocimientos en diseño arquitectonico y programación los cuales me dan un amplio criterio a la hora de abordar diferentes soluciones a problemáticas que se puedan presentar en el desarrollo web. Soy una apasionado por la tecnologia con hambre de nuevos desafios.",
+
+  "BotonCV": "Descarga CV",
+
+  "Titu_Acerca": "Acerca de Mi",
+
+  "TxtAcerca1": "Soy un entusiasta de la creatividad con un amor profundo por la arquitectura, la programación, el diseño y el bricolaje. Desde mi temprana fascinación por los espacios arquitectónicos hasta mi pasión por la codificación y el diseño innovador, encuentro en cada campo una oportunidad para expresar mi creatividad y habilidades.",
+
+  "TxtAcerca2": "La arquitectura me cautiva con su capacidad para influir en nuestras vidas y emociones a través de los espacios que crea. La programación me permite transformar ideas abstractas en soluciones digitales tangibles. Mientras tanto, el diseño y el bricolaje me ofrecen un lienzo tangible donde puedo fusionar estética y funcionalidad de manera única. En cada proyecto, busco explorar nuevos límites, desafiarme y encontrar la belleza en la intersección de la forma y la función.",
+  
+  "TxtAcerca3":"Mi mundo está definido por la búsqueda constante de nuevas experiencias y desafíos creativos. Desde la planificación de proyectos arquitectónicos hasta la creación de soluciones tecnológicas, cada paso que doy refleja mi pasión por la innovación y el diseño. Soy un eterno aprendiz y creador, impulsado por el deseo de dejar una marca positiva en el mundo a través de mi trabajo y mi creatividad.",
+
+  "Title_Habil": "Habilidades",
+
+  "TxtHabil": "Poseo habilidades sólidas en HTML, CSS,  JavaScript, React y TypeScript. Me especializo en crear interfaces atractivas y funcionales, centrándome en la accesibilidad y la optimización. Actualmente estoy ampliando mis conocimientos para dominar el Back-end y crear aplicaciones web modernas y escalables.",
+
+  "Proyectos": "Proyectos",
+
+  "ProEnt1Titulo": "Frases Celebres",
+  
+  "ProEnt1Txt": "Es una aplicacion desarrollada en React JS y CSS que esta te presenta de forma aleatoria diversas frases mientras cambia igualmente la imagen de fondo",
+
+  "ProEnt2Titulo": "Aplicacion del clima",
+  
+  "ProEnt2Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de la API llamada Open Weather Map en el que se implementa el Hook useEffect y las peticiones asincronas",
+
+  "ProEnt3Titulo": "Rick and Morty App",
+  
+  "ProEnt3Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de la API de Rick and Morty implementando el uso de List and keys, input controlados, renderizado condicional y manejo de errores.",
+
+  "ProEnt4Titulo": "Users CRUD",
+  
+  "ProEnt4Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de la Snippets API implementando el uso de Métodos HTTP (get, create, delete, update) y práctica de props.",
+
+  "ProEnt5Titulo": "Pokedex",
+  
+  "ProEnt5Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de la API de pokemon PokeAPI implementando el uso React router y Redux.",
+
+  "ProEnt6Titulo": "Hotels VIP",
+  
+  "ProEnt6Txt": "Es una aplicacion desarrollada en React JS y CSS en la cual se manejo el uso de una API de pokemon PokeAPI implementando el uso React router, Redux, Métodos HTTP (get, create, delete, update) y práctica de props.",
+
+  "Contacto": "Contacto",
+
+  "InfoContacto": "Informacion de contacto",
+
+  "TxtInfonCont": "No dude en ponerse en contacto conmigo enviando el siguiente formulario y me comunicaré con usted lo antes posible.",
+
+  "WhatsApp": "Enviar mensaje a WhatsApp",
+
+  "TituloForm": "Enviar Mensaje",
+
+  "Name": "Nombre",
+  "PlName": "Tu nombre...",
+  "Email": "Correo",
+  "PlEmail": "example@mail.com",
+  "Subject": "Asunto",
+  "Message": "Mensaje",
+
+  "Footer": "Soy desarrollador web con un enfoque distintivo en el diseño, fusionando habilidades técnicas en programación con una sensibilidad creativa para crear experiencias digitales impactantes y centradas en el usuario.",
+
+  "Redes": "Redes Sociales",
+
+  "Derechos": "© Sitio creado por {(Autor)}", 
+
+  "BotonForm": "Enviar",
+  "BotonDemo": "VER DEMO",
+  "BotonCod": "VER CODIGO"
+
+}

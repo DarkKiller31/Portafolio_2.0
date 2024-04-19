@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="14.17" dy="19.84"/>
+      <feGaussianBlur result="blur" stdDeviation="19.84"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="14.17" dy="19.84"/>
+      <feGaussianBlur result="blur-2" stdDeviation="19.84"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="14.17" dy="19.84"/>
+      <feGaussianBlur result="blur-3" stdDeviation="19.84"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon class="cls-3" points="430.9 131 719.9 131 561.2 601 115.5 601 64.6 682.5 620.2 682.5 811.5 131 1143.2 131 823.7 1026.4 921.3 995.8 1246.9 53.6 506.2 53.6 430.9 131"/>
+  <polygon class="cls-2" points="1165.5 53.6 1141.1 128.9 1006.8 128.9 850.1 601 1826.9 601 1855.4 678.4 742.3 678.4 949.8 53.6 1165.5 53.6"/>
+  <polygon class="cls-1" points="1273.4 128.9 1298.8 53.6 1599 53.6 1631.5 128.9 1273.4 128.9"/>
+</svg>
