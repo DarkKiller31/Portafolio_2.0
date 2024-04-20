@@ -38,3 +38,11 @@
 .skills__img {
   height: 150px;
 }
+
+@media (max-width: 750px) {
+  .skill__content{
+    margin: 0;
+  }
+  .skills__img {
+  height: 75px;
+}}
