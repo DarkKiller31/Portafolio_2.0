@@ -7,8 +7,30 @@ import {
   FaPhone,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const ContactPage = ({ t }) => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_z5wdhmj', 'template_980ma5b', form.current, {
+        publicKey: 'szWCeJypK4ltCOAFt',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <section id="contact" className="contact__section">
       <h2 className="section__title">{t("Contacto")}</h2>
@@ -60,7 +82,7 @@ const ContactPage = ({ t }) => {
         <div className="contact__form">
           <h3 className="contact__form-title">{t("TituloForm")}</h3>
 
-          <form id="form" className="contact__form-container">
+          <form ref={form} onSubmit={sendEmail} className="contact__form-container">
             <div className="contact__form-group">
               <label for="name" className="contact__form-label">
                 {t("Name")}
@@ -114,7 +136,6 @@ const ContactPage = ({ t }) => {
 
             <button
               type="submit"
-              id="button"
               value=""
               className="btn contact__form-button"
             >
