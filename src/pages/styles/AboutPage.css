@@ -119,5 +119,14 @@
 @media (max-width: 768px) {
   .about__container {
     flex-wrap: wrap-reverse;
+    padding: 0;
+    height: 100%;;
+  }
+  .about__collage {
+    height: 100%;
+    width: 100%;
+  }
+  .img__collage {
+    height: 75px;
   }
 }
