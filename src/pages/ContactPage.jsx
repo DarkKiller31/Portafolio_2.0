@@ -88,7 +88,7 @@ const ContactPage = ({ t }) => {
           <form id="myform" ref={form} onSubmit={sendEmail} className="contact__form-container">
             <div className="contact__form-group">
               <label for="name" className="contact__form-label">
-                {t("Name")}
+                {t("Name")}*
               </label>
               <input
                 type="text"
@@ -102,7 +102,7 @@ const ContactPage = ({ t }) => {
 
             <div className="contact__form-group">
               <label for="email" className="contact__form-label">
-                {t("Email")}
+                {t("Email")}*
               </label>
               <input
                 type="email"
@@ -116,7 +116,7 @@ const ContactPage = ({ t }) => {
 
             <div className="contact__form-group">
               <label for="subject" className="contact__form-label">
-                {t("Subject")}
+                {t("Subject")}*
               </label>
               <input
                 type="text"
@@ -129,7 +129,7 @@ const ContactPage = ({ t }) => {
 
             <div className="contact__form-group">
               <label for="message" className="contact__form-label">
-                {t("Message")}
+                {t("Message")}*
               </label>
               <textarea
                 id="message"
@@ -144,7 +144,7 @@ const ContactPage = ({ t }) => {
             <button
               type="submit"
               value=""
-              className="btn contact__form-button"
+              className="contact__btn"
             >
               {t("BotonForm")}
             </button>
