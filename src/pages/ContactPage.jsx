@@ -16,6 +16,7 @@ const ContactPage = ({ t }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
 
     emailjs
       .sendForm('service_z5wdhmj', 'template_980ma5b', form.current, {
@@ -29,6 +30,8 @@ const ContactPage = ({ t }) => {
           console.log('FAILED...', error.text);
         },
       );
+      
+    document.getElementById("myform").reset();
   };
 
   return (
@@ -82,7 +85,7 @@ const ContactPage = ({ t }) => {
         <div className="contact__form">
           <h3 className="contact__form-title">{t("TituloForm")}</h3>
 
-          <form ref={form} onSubmit={sendEmail} className="contact__form-container">
+          <form id="myform" ref={form} onSubmit={sendEmail} className="contact__form-container">
             <div className="contact__form-group">
               <label for="name" className="contact__form-label">
                 {t("Name")}
@@ -93,6 +96,7 @@ const ContactPage = ({ t }) => {
                 name="name"
                 className="contact__form-input"
                 placeholder={t("PlName")}
+                required
               />
             </div>
 
@@ -106,6 +110,7 @@ const ContactPage = ({ t }) => {
                 name="email"
                 className="contact__form-input"
                 placeholder={t("PlEmail")}
+                required
               />
             </div>
 
@@ -118,6 +123,7 @@ const ContactPage = ({ t }) => {
                 id="subject"
                 name="subject"
                 className="contact__form-input"
+                required
               />
             </div>
 
@@ -131,6 +137,7 @@ const ContactPage = ({ t }) => {
                 cols="30"
                 rows="10"
                 className="contact__form-input"
+                required
               ></textarea>
             </div>
 
