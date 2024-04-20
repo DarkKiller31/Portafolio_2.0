@@ -95,6 +95,11 @@
 
 @media (max-width: 768px) {
   .home__container {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    height: 100%
   }
+  .home__contImg {
+    height: 100%;
+  }
+
 }
