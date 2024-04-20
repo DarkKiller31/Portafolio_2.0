@@ -61,3 +61,11 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 750px) {
+  .project__card {
+    flex-direction: column;
+    max-height: none;
+    min-width: 300px;
+  }
+}
