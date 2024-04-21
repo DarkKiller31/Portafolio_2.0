@@ -28,7 +28,9 @@ const Header = ({ t, changeLanguage, modoDyL, setModoDyL }) => {
 
   return (
     <header className='header__container'>
-      <img className='header__logo' src="../logo.svg" alt="" />
+      <Link className='header__li'  to='/'>
+        <img className='header__logo' src="../logo.svg" alt="" />
+      </Link>
       <ul className='header__list'>
         <li>
           <Link className='header__li'  to='/'><AiOutlineHome className='header__icon' /> <h3 className='header__link'>{t("BTN1")}</h3></Link>
