@@ -33,6 +33,8 @@
   max-height: 450px;
   min-height: 400px;
   overflow: hidden;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
 }
 .project__img {
   max-height: 230px;
