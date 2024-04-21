@@ -45,7 +45,7 @@ const ContactPage = ({ t }) => {
           <address className="contatc__info-data">
             <div className="contact__info-item">
               <FaWhatsapp />
-              <span className="contact__info-number">
+              <span className="contact__info-value">
                 <a
                   href="https://wa.me/+573195977937?text=Hola%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo%20web"
                   target="_blank"
@@ -58,7 +58,7 @@ const ContactPage = ({ t }) => {
             <div className="contact__info-item">
               <FaPhone />
 
-              <span className="contact__info-number">
+              <span className="contact__info-value">
                 <a href="tel:1-234-567-8910"> +57 319 597 7937 </a>
               </span>
             </div>
@@ -66,7 +66,7 @@ const ContactPage = ({ t }) => {
             <div className="contact__info-item">
               <MdOutlineEmail />
 
-              <span className="contact__info-mail">
+              <span className="contact__info-value">
                 <a id="mail" href="mailto:jcamilot31@gmail.com">
                   {" "}
                   jcamilot31@gmail.com{" "}
@@ -77,7 +77,7 @@ const ContactPage = ({ t }) => {
             <div className="contact__info-item">
               <FaMapMarkerAlt />
 
-              <span className="contact__info-map"> Ibagué, Colombia. </span>
+              <span className="contact__info-value"> Ibagué, Colombia. </span>
             </div>
           </address>
         </div>

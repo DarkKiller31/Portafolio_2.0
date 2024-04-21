@@ -135,3 +135,16 @@ textarea {
     color: var(--accent);
 }
 }
+.contact__info-item {
+  padding-left: 1em;
+  font-size: 1.2em;
+  color: var(--color-text);
+}
+.contact__info-value a{
+  padding-left: 0.5em;
+  text-decoration: none;
+  color: var(--color-text);
+}
+.contact__info-item :hover {
+  color: var(--accent);
+}
