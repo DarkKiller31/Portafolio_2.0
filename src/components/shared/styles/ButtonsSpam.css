@@ -1,0 +1,24 @@
+.buttons__container {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.button__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  color: white;
+  background-color: aqua;
+  padding: 0.3em;
+  border-radius: 50%;
+}
+.circle__green {
+  background-color: #25d366;
+}
+.circle__red {
+  background-color: red;
+}

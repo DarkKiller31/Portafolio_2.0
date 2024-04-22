@@ -8,6 +8,7 @@ import { useState } from "react";
 import SkillsPage from "./pages/SkillsPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import ButtonsSpam from "./components/shared/ButtonsSpam";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -29,6 +30,7 @@ function App() {
         <Route path="/projects" element={<ProjectsPage t={t} />} />
         <Route path="/contact" element={<ContactPage t={t} />} />
       </Routes>
+      <ButtonsSpam />
     </div>
   );
 }
