@@ -18,7 +18,11 @@
 }
 .circle__green {
   background-color: #25d366;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 .circle__red {
   background-color: red;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
