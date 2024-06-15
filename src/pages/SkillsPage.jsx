@@ -2,7 +2,7 @@ import './styles/SkillsPage.css'
 
 const SkillsPage = ({ t }) => {
   return (
-    <main className='skill__content'>
+    <main id='skills' className='skill__content'>
       <div className='skill__info animate__animated animate__backInUp'>
           <h2 className='skill__title'>{t("Title_Habil")}</h2>
           <p className='skill__text'>{t("TxtHabil")}</p>

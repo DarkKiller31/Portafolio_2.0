@@ -4,7 +4,6 @@ import { FaRegUser } from "react-icons/fa";
 import { PiToolboxBold } from "react-icons/pi";
 import { BsPersonGear } from "react-icons/bs";
 import { MdOutlinePhonelink } from "react-icons/md";
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { MdOutlineWbSunny } from "react-icons/md";
 import { FiMoon } from "react-icons/fi";
@@ -39,9 +38,9 @@ const Header = ({ t, changeLanguage, modoDyL, setModoDyL }) => {
 
   return (
     <header className='header__container'>
-      <Link className='header__li Img'  to='/'>
+      <a className='header__li Img'  to='/'>
         <img className='header__logo' src="../logo.svg" alt="" />
-      </Link>
+      </a>
       <nav className='header__inter'>
       <div className="nav__toggle" onClick={handleOpen}>
           <RxHamburgerMenu />
@@ -49,19 +48,19 @@ const Header = ({ t, changeLanguage, modoDyL, setModoDyL }) => {
         <div className={`content__list ${openMenu ?'list__open' : ''}`}>
             <ul className='header__list'>
               <li>
-                <Link className='header__li'  to='/'><AiOutlineHome className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN1")}</h3></Link>
+                <a className='header__li'  href='#home'><AiOutlineHome className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN1")}</h3></a>
               </li>
               <li>
-                <Link className='header__li' to='/about'><FaRegUser className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN2")}</h3></Link>
+                <a className='header__li' href='#about'><FaRegUser className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN2")}</h3></a>
               </li>
               <li>
-                <Link className='header__li' to='/skills'><BsPersonGear className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN3")}</h3></Link>
+                <a className='header__li' href='#skills'><BsPersonGear className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN3")}</h3></a>
               </li>
               <li>
-                <Link className='header__li' to='/projects'><PiToolboxBold className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN4")}</h3></Link>
+                <a className='header__li' href='#projects'><PiToolboxBold className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN4")}</h3></a>
               </li>
               <li>
-                <Link className='header__li' to='/contact'><MdOutlinePhonelink className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN5")}</h3></Link>
+                <a className='header__li' href='#contact'><MdOutlinePhonelink className='header__icon' /> <h3 onClick={handleOpen} className='header__link'>{t("BTN5")}</h3></a>
               </li>
             </ul>
             <div className='container__btns'>

@@ -2,7 +2,7 @@ import './styles/AboutPage.css'
 
 const AboutPage = ({ t }) => {
   return (
-    <main className="about__container">
+    <main id='about' className="about__container">
       <div className="about__collage animate__animated animate__backInUp">
         <img className="img__collage img1" src="../2.jpg" alt="" />
         <img className="img__collage img2" src="../3.jpg" alt="" />

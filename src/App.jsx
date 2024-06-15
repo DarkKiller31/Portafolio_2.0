@@ -23,14 +23,14 @@ function App() {
   return (
     <div className={`app ${modoDyL ?'light' : ''}`}>
       <Header className='appHeader' t={t} changeLanguage={changeLanguage} modoDyL={modoDyL} setModoDyL={setModoDyL} />
-      <Routes>
-        <Route path="/" element={<HomePage t={t} />} />
-        <Route path="/about" element={<AboutPage t={t} />} />
-        <Route path="/skills" element={<SkillsPage t={t} />} />
-        <Route path="/projects" element={<ProjectsPage t={t} />} />
-        <Route path="/contact" element={<ContactPage t={t} />} />
-      </Routes>
-      <ButtonsSpam />
+      <div className="container_components">
+        <HomePage t={t} />
+        <AboutPage t={t} />
+        <SkillsPage t={t} />
+        <ProjectsPage t={t} />
+        <ContactPage t={t} />
+      </div>
+        <ButtonsSpam />
     </div>
   );
 }

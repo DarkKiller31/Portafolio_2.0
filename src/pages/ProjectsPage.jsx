@@ -2,7 +2,7 @@ import './styles/ProjectsPage.css'
 
 const ProjectsPage = ({ t }) => {
   return (
-    <section className='project__container'>
+    <section id='projects' className='project__container'>
       <h2 className='project__title'>{t("Proyectos")}</h2>
       <div className='container__cards'>
       <div className="project__card">

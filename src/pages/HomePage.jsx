@@ -10,7 +10,7 @@ import 'animate.css'
 
 const HomePage = ({ t, changeLanguage }) => {
   return (
-    <main className="home__container">
+    <main id="home" className="home__container">
       <section className="home__section animate__animated animate__backInDown">
         <h1 className="home__title">{t("Titu_Presen")}</h1>
         <p className="home__text">{t("Presentacion")}</p>
