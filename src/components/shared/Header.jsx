@@ -38,7 +38,7 @@ const Header = ({ t, changeLanguage, modoDyL, setModoDyL }) => {
 
   return (
     <header className='header__container'>
-      <a className='header__li Img'  to='/'>
+      <a className='header__li Img'  href='#home'>
         <img className='header__logo' src="../logo.svg" alt="" />
       </a>
       <nav className='header__inter'>

@@ -9,9 +9,9 @@ const ButtonsSpam = () => {
       <a className="button__circle circle__green animate__animated animate__tada" href="https://wa.me/+573195977937?text=Hola%20estoy%20interesado%20en%20tus%20servicios%20de%20desarrollo%20web" target="_blank" >
         <FaWhatsapp />
       </a>
-      <Link className="button__circle circle__red animate__animated animate__tada" to='/contact'>
+      <a className="button__circle circle__red animate__animated animate__tada" href='#contact'>
         <MdOutlineMail />
-      </Link>
+      </a>
     </div>
   )
 }
