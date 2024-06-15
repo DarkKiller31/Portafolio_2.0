@@ -16,12 +16,6 @@ const AboutPage = ({ t }) => {
         <h2 className='about__title'>{t("Titu_Acerca")}</h2>
         <p className='about__text'>
           {t("TxtAcerca1")}
-          <br />
-          <br />
-          {t("TxtAcerca2")}
-          <br />
-          <br />
-          {t("TxtAcerca3")}
         </p>
       </div>
     </main>
